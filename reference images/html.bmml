@@ -1,0 +1,85 @@
+<mockup version="1.0" skin="sketch" measuredW="1640" measuredH="983" mockupW="1352" mockupH="967">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="288" y="16" w="1352" h="967" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="__group__" x="970" y="89" w="670" h="70" measuredW="670" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="670" h="70" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="15">
+          <controlProperties>
+            <color>15658734</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="12" y="8" w="643" h="53" measuredW="643" measuredH="53" zOrder="1" locked="false" isInGroup="15">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="2" w="50" h="49" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="1"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="7" y="17" w="-1" h="-1" measuredW="36" measuredH="21" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>clock</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="68" y="3" w="-1" h="-1" measuredW="111" measuredH="21" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>%28X%29%20%28X%29%20%28X%29%20%28X%29%20%28X%29</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::TextInput" x="68" y="26" w="406" h="-1" measuredW="121" measuredH="27" zOrder="3" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Income%20from%20Hotel</text>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="197" y="3" w="277" h="21" measuredW="130" measuredH="21" zOrder="4" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>1st%20WD/2Q/2nd%20Year</text>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::TextInput" x="539" y="0" w="-1" h="-1" measuredW="104" measuredH="27" zOrder="5" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Fund%20%20%20%20%2478200</text>
+              </controlProperties>
+            </control>
+            <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="539" y="26" w="104" h="-1" measuredW="90" measuredH="27" zOrder="6" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Pop%20%20%20%20%20%203124</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Canvas" x="288" y="89" w="684" h="70" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::TitleWindow" x="483" y="258" w="170" h="400" measuredW="450" measuredH="400" zOrder="3" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Toolbar</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="543" y="297" w="-1" h="-1" measuredW="50" measuredH="33" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>%3D</text>
+        <textOrientation>up</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="498" y="361" w="-1" h="-1" measuredW="123" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%28other%20buttons%20here%29.</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="483" y="388" w="-1" h="-1" measuredW="168" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>click/hold%20produces%20submenu</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Label" x="483" y="417" w="-1" h="-1" measuredW="432" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>selection%20of%20submenu%20item%20will%20cause%20the%20toolbox%20icon%20to%20change%20to%20that%20item</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

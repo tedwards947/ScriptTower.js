@@ -1,0 +1,93 @@
+#header-wrapper{
+	 border-bottom:1px solid black; 
+	clear:both;
+	
+	background-color:#F1F1F1;
+	
+	/* border:3px outset #E2E2E2; */
+	
+	cursor:default;
+	
+	min-width:708px;
+}
+#info-bar, #other-bar{
+	display:inline-block;
+	padding-top:5px;
+}
+
+
+/*Other bar specific CSS*/
+#other-bar{
+	float:left;
+
+}
+#game-title{
+	font-weight:bold;
+	font-size:40px;
+	margin:0 15px;
+}
+
+
+/* Info bar CSS*/
+#info-bar{
+	float:right;
+	background-color: #9A9A9A;
+	border:3px outset #E2E2E2;
+}
+.info-col{
+	display:inline-block;
+	overflow:hidden;
+}
+/* #info-col-one  */
+#clock{
+	
+	
+	width:50px;
+	height:50px;
+	
+	border:3px inset #C1C1C1;
+}
+
+/* #info-col-two  */
+#star-wrapper{
+	display:inline-block;
+	/* height: 30px; */
+}
+#star-wrapper .star{
+	font-size: 30px;
+	color:#8E8E8E;
+	text-shadow: 0px 0px 4px black;
+}
+#star-wrapper .star.star-active{
+	color: #FBFB39;
+}
+#date-wrapper{
+	display:inline-block;
+	margin:0px 15px;
+	font-size:20px;
+}
+#date-day-type.date-day-weekend{
+	color:darkred;
+}
+#notification{
+	width:450px;
+	font-size:13px;
+	border:2px inset #C1C1C1;
+	background-color:#EDEDED;
+	
+	padding-left:3px;
+}
+#fund-wrapper, #pop-wrapper{
+	width:175px;
+	border:3px inset #C1C1C1;
+	padding:0 3px;
+}
+#fund-wrapper > .info-label, #pop-wrapper  > .info-label{
+	float:left;
+	font-weight:bold;
+}
+
+#fund,#pop{
+	float:right;
+	display:inline-block;
+}

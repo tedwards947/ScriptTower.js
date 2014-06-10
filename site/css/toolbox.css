@@ -1,0 +1,59 @@
+
+
+#toolbox{
+	position:absolute;
+	top:150px;
+	left:50px; 
+	border:1px solid black;
+	border-radius: 1px;
+	display:inline-block;
+	width:100px;
+	background-color:#9A9A9A;
+	
+	cursor:default;
+}
+#toolbox-handle{
+	background-color:white;
+	padding:7px;
+	border-bottom:1px solid black;
+	
+	cursor:pointer;
+}
+
+.toolbox-button{
+	border:2px outset #A4A4A4;
+	display:inline-block;
+	cursor:pointer;
+}
+.toolbox-button:hover{
+	background-color:#FFFFA2;
+}
+.toolbox-button:active{
+	background-color:#FFFFA2;
+	border:2px inset #A4A4A4;
+}
+.toolbox-row{
+	text-align:center;
+}
+.toolbox-row.center-tools{
+	/* margin:7px; */
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+
+}
+.toolbox-row.center-tools > .toolbox-button{
+	width:26px;
+	height:26px;
+}
+.toolbox-row.small-tools > .toolbox-button{
+	width:26px;
+	height:26px;
+}
+.toolbox-row.regular-tools > .toolbox-button{
+	width:44px;
+	height:40px;
+}
+
+

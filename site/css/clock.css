@@ -1,0 +1,158 @@
+ .circle {
+  width: 60px;
+  height: 60px;
+  left: -10px;
+  top: -10px;
+  position: relative; 
+}
+
+ .face {
+  width: 100%;
+  height: 100%;
+  background: none;
+  margin:5px;
+   /* border: 5px solid whitesmoke;  */
+  border-radius: 50%;
+  position: relative;
+}
+
+ .face:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  margin: -5px 0 0 -5px;
+ 
+  border-radius: 5px;
+  content: "";
+  display: block;
+}
+
+ .face .map-thumb, .face:before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  /* background: whitesmoke; */
+  border-radius: 50%;
+  content: "";
+  display: block;
+}
+
+ #hour {
+  z-index:50;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* margin: -5px 0 -5px -25%;
+  padding: 5px 0 5px 25%; */
+  margin: -1px 0 -1px -25%;
+  padding: 1px 0 1px 25%;
+  background: #222;
+  -webkit-transform-origin: 100% 50%;
+  -moz-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  border-radius: 5px 0 0 5px;
+}
+
+ #minute {
+ z-index:50;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ /*  margin: -40% -5px 0;
+  padding: 40% 5px 0; */
+  margin:-40% -1px 0;
+  padding:40% 1px 0;
+  
+  background: #222;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  border-radius: 0px 0px 0 0;
+}
+
+ #second {
+  z-index:50;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40% -1px 0 0;
+  padding: 40% 1px 0;
+  background: #222;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+.tickmark{
+	background: #5E5E5E;
+}
+#noon1{
+	display:inline-block;
+	padding: 3px 1px;
+    margin: 0px -1px;
+    height: 0;
+    width: 0;
+    position: relative;
+    top: -5px;
+    left: 29px;
+}
+#noon2{
+	display:inline-block;
+	padding: 3px 1px;
+    margin: 0px 1px;
+    height: 0;
+    width: 0;
+    position: relative;
+    top: -5px;
+    left: 27px;
+}
+#makers-mark{
+	text-align:center;
+	position:relative;
+	top:-8px;
+	font-size:8px;
+	color:#5E5E5E;
+}
+#nine{
+	display:inline-block;
+	padding: 1px 3px;
+    margin: 0px 0px;
+    height: 0;
+    width: 0;
+    position: relative;
+    top: -20px;
+    left: 7px;
+}
+#three{
+	display:inline-block;
+	padding: 1px 3px;
+    margin: 0px 0px;
+    height: 0;
+    width: 0;
+    position: relative;
+    top: -20px;
+    left: 37px;
+}
+#six{
+	display:inline-block;
+	padding: 3px 1px;
+    margin: 0px 1px;
+    height: 0;
+    width: 0;
+    position: relative;
+    top: 3px;
+    left: 8px;
+}
