@@ -1,6 +1,6 @@
 *{
 	margin:0;
-	
+
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -11,15 +11,15 @@
 
 body{
 	font-family: "Open Sans";
-	
+
 	min-width:1000px;
 	/* background-color:#F1F1F1; */
-	
+
 	background-color:black;
 }
 
 .color-background{
-	
+
 }
 
 
@@ -29,14 +29,26 @@ body{
 }
 
 
+#header-wrapper
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+}
 
+#main-wrapper
+{
+	margin-top: 74px;
+}
 
 #main-game{
-	margin-left:auto;
-	margin-right:auto;
 	background-color:white;
-	width:1000px;
-	height:700px;
+	position: absolute;
+	top: 75px;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 
@@ -47,10 +59,10 @@ body{
 
 
 
-.clearfix:after { 
+.clearfix:after {
    content: " ";
-   display: block; 
-   height: 0; 
+   display: block;
+   height: 0;
    clear: both;
 }
 
